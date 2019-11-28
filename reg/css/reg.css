@@ -1,0 +1,277 @@
+.global_wrap{
+    position: relative;
+    min-height: 100%;
+    clear: both;
+    content: "";
+}
+.global_wrap .header{
+    display: table;
+    width: 100%;
+    min-width: 980px;
+    position: relative;
+    background-color: #fff;
+    z-index: 999;
+}
+.global_wrap .header .header_top{
+    position: relative;
+    height: 35px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    z-index: 999;
+    width: 100%;
+}
+.global_wrap .header .header_top .header_top_center{
+    width: 980px;
+    margin: 0 auto;
+    height: 35px;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right{
+    float: right;
+    height: 35px;
+    display: inline;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right ul li,
+.global_wrap .header .header_top .header_top_center
+.header_top_left ul li{
+    display: inline-block;
+    height: 35px;
+    position: relative;
+    line-height: 35px;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right ul li a{
+    padding: 0 15px;
+    float: left;
+    display: inline;
+    color: #999;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right a.no{
+    color: #f25618;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right a:hover{
+    color: #f25618;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right ul li span{
+    overflow: hidden;
+    width: 1px;
+    height: 12px;
+    margin-top: 11px;
+    background-color: #eee;
+    float: left;
+    display: inline;
+    color: #999;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_right ul li em{
+    padding: 0 15px;
+    float: left;
+    display: inline;
+    color: #999;
+    font-style: normal;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_left{
+    height: 35px;
+    color: #999;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_left ul{
+    height: 35px;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_left ul li em{
+    width: 10px;
+    height: 14px;
+    float: left;
+    margin: 11px 5px 0 0;
+    display: inline;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_left ul li em, #new_img_weixincode i,
+.global_wrap .header .header_center .header_center_container
+.hcc_logo,.global_wrap .container .login_box .login_tab li a b,
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-phone em{
+    background: url("../images/global.png") no-repeat;
+    overflow: hidden;
+}
+#current_city{
+    font-weight: bold;
+}
+.global_wrap .header .header_top .header_top_center
+.header_top_left ul li a{
+    color: #00af63;
+}
+.global_wrap .header .header_center{
+    position: relative;
+    z-index: 999;
+}
+.global_wrap .header .header_center .header_center_container{
+    width: 980px;
+    margin: 0 auto;
+}
+.global_wrap .header .header_center .header_center_container
+.hcc_logo{
+    margin-right: 20px;
+    float: left;
+    margin-top: 28px;
+    height: 65px;
+    width: 320px;
+    background-position: 0 -350px;
+    display: inline;
+}
+.global_wrap .header .header_center .header_center_container
+.hcc_logo a{
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 65px;
+}
+.global_wrap .header .header_center .header_center_container
+.hcc_title{
+    float: left;
+    display: inline;
+    height: 42px;
+    margin-top: 39px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #333;
+    border-left: 1px solid #f8f8f8;
+}
+.global_wrap .container{
+    width: 980px;
+    min-height: 0;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.global_wrap .container .login_img{
+    width: 380px;
+    height: 380px;
+    margin: 14px 0 0 68px;
+    display: inline;
+}
+.global_wrap .container .login_img img{
+    width: 390px;
+    height: 310px;
+    display: block;
+}
+.global_wrap .container .login_box{
+    position: relative;
+    width: 299px;
+    height: 438px;
+    margin: 26px 0 0 80px;
+    padding: 30px 40px;
+    border: 1px solid #eee;
+    display: inline;
+}
+.global_wrap .container .login_box .reg_tab{
+    width: 299px;
+    height: 35px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.global_wrap .container .login_box .reg_tab ul li{
+    width: 99px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    cursor: pointer;
+}
+.global_wrap .container .login_box .reg_tab ul li.on a{
+    color: #00af63;
+    border-bottom: 2px solid #00b161;
+    width: 99px;
+}
+.global_wrap .container .login_box .reg_tab ul li a{
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    height: 35px;
+    display: block;
+}
+.weixin-reg-boxer .weixin-reg-box{
+    margin-top: 60px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box{
+    margin: 0 auto;
+    width: 222px;
+}
+#new_img_weixincode{
+    position: relative;
+    width: 222px;
+    height: 160px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+#new_img_weixincode img{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border: 1px solid #efefef;
+    display: block;
+}
+#new_img_weixincode i{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: 100px;
+    top: 56px;
+    background-position: -221px -223px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-point{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-top: 15px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-help{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 16px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-help span{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-phone{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    margin: 35px 0 0 71px;
+    position: relative;
+    width: 80px;
+    cursor: pointer;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-td .reg-td-box
+.reg-td-phone em{
+    position: absolute;
+    background-position: -320px -272px;
+    width: 10px;
+    height: 16px;
+    left: 5px;
+    top: 2px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-ljdl{
+    position: absolute;
+    right: 20px;
+    bottom: 17px;
+}
+.weixin-reg-boxer .weixin-reg-box .weixin-reg-ljdl a{
+    font-size: 12px;
+    color: #666;
+}

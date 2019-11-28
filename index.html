@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index(仿)</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrap clear">
+    <div class="nav clear">
+        <div class="nav_left clear">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./images/timg75NXAHTQ.jpg" alt="">
+                        <span>土巴兔</span>
+                    </a>
+                </li>
+                <li><a href="javascript:;">效果图</a></li>
+                <li><a href="javascript:;">装修攻略</a></li>
+                <li><a href="javascript:;" class="on">设计与报价</a></li>
+                <li><a href="javascript:;">装修公司</a></li>
+                <li><a href="javascript:;">家居商城</a></li>
+            </ul>
+            <div class="nav_right">
+                <ul>
+                    <li><a href="logo/logo.html">登录</a></li>
+                    <li><a href="reg/reg.html">注册</a></li>
+                    <li><a href="javascript:;" class="on">返回官网首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main clear">
+        <div class="con clear">
+            <div class="con_bj clear">
+                <div class="con_bj_cal clear">
+                    <h3>装修计算器
+                        <span>
+                            今天已有
+                            <em>1454</em>
+                            位业主获取了装修预算
+                        </span>
+                    </h3>
+                    <form id="new_base_info">
+                        <div class="mod_form clear">
+                            <div class="form_line">
+                                <label class="label" for="">
+                                    <em class="label_start">*</em>
+                                    所在城市
+                                </label>
+                                <div class="element">
+                                    <div class="clea">
+                                        <select name="shen" id="User_Shen" class="select">
+                                            <option value="">省/市</option>
+                                            <option value="安徽">A 安徽</option>
+                                            <option value="澳门">A 澳门</option>
+                                            <option value="北京">B 北京</option>
+                                            <option value="重庆">C 重庆</option>
+                                            <option value="福建">F 福建</option>
+                                            <option value="广西">G 广西</option>
+                                            <option value="贵州">G 贵州</option>
+                                            <option value="广东">G 广东</option>
+                                            <option value="甘肃">G 甘肃</option>
+                                            <option value="海南">H 海南</option>
+                                            <option value="湖北">H 湖北</option>
+                                            <option value="黑龙江">H 黑龙江</option>
+                                            <option value="河南">H 河南</option>
+                                            <option value="河北">H 河北</option>
+                                            <option value="湖南">H 湖南</option>
+                                            <option value="江苏">J 江苏</option>
+                                            <option value="吉林">J 吉林</option>
+                                            <option value="江西">J 江西</option>
+                                            <option value="辽宁">L 辽宁</option>
+                                            <option value="内蒙古">N 内蒙古</option>
+                                            <option value="宁夏">N 宁夏</option>
+                                            <option value="青海">Q 青海</option>
+                                            <option value="四川">S 四川</option>
+                                            <option value="陕西">S 陕西</option>
+                                            <option value="上海">S 上海</option>
+                                            <option value="山东">S 山东</option>
+                                            <option value="山西">S 山西</option>
+                                            <option value="台湾">T 台湾</option>
+                                            <option value="天津">T 天津</option>
+                                            <option value="西藏">X 西藏</option>
+                                            <option value="香港">X 香港</option>
+                                            <option value="新疆">X 新疆</option>
+                                            <option value="云南">Y 云南</option>
+                                            <option value="浙江">Z 浙江</option>
+                                        </select>
+                                        <select name="shen" id="User_City" class="select">
+                                            <option value="">市/地区</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <label class="label" for="">
+                                    <em class="label_start">*</em>
+                                    住房面积
+                                </label>
+                                <div class="element">
+                                    <div class="text_wrap">
+                                        <input type="text" class="square">
+                                        <em class="text_lbl">请输入您的房屋面积</em>
+                                        <em class="unit">m²</em>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <label class="label" for="">
+                                    <em class="label_start">*</em>
+                                    房屋类型
+                                </label>
+                                <div class="element">
+                                    <div class="houseTpe">
+                                        <input type="radio" checked="">
+                                        <lable>新房</lable>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio">
+                                        <lable>二手房/老房</lable>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <label class="label" for="">
+                                    <em class="label_start">*</em>
+                                    房屋户型
+                                </label>
+                                <div class="element">
+                                    <div class="huxing_wrap">
+                                        <div class="huxing_show">
+                                            <span>1室</span>
+                                            <span>1厅</span>
+                                            <span>1厨</span>
+                                            <span>1卫</span>
+                                            <span>1阳台</span>
+                                        </div>
+                                        <ul class="huxing form_line clear">
+                                            <li>
+                                                <a href="javascript:;" class="active">1室</a>
+                                                <a href="javascript:;">2室</a>
+                                                <a href="javascript:;">3室</a>
+                                                <a href="javascript:;">4室</a>
+                                                <a href="javascript:;">5室</a>
+                                                <a href="javascript:;">6室</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="active">1厅</a>
+                                                <a href="javascript:;">2厅</a>
+                                                <a href="javascript:;">3厅</a>
+                                                <a href="javascript:;">4厅</a>
+                                                <a href="javascript:;">5厅</a>
+                                                <a href="javascript:;">6厅</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="active">1厨</a>
+                                                <a href="javascript:;">2厨</a>
+                                                <a href="javascript:;">3厨</a>
+                                                <a href="javascript:;">4厨</a>
+                                                <a href="javascript:;">5厨</a>
+                                                <a href="javascript:;">6厨</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="active">1卫</a>
+                                                <a href="javascript:;">2卫</a>
+                                                <a href="javascript:;">3卫</a>
+                                                <a href="javascript:;">4卫</a>
+                                                <a href="javascript:;">5卫</a>
+                                                <a href="javascript:;">6卫</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="active">1阳台</a>
+                                                <a href="javascript:;">2阳台</a>
+                                                <a href="javascript:;">3阳台</a>
+                                                <a href="javascript:;">4阳台</a>
+                                                <a href="javascript:;">5阳台</a>
+                                                <a href="javascript:;">6阳台</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <label class="label" for="">
+                                    <em class="label_start">*</em>
+                                    手机号码
+                                </label>
+                                <div class="element">
+                                    <div class="text_wrap">
+                                        <input type="text" class="square" name="phone">
+                                        <em class="text_lbl">报价结果将发送到您的手机</em>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <label class="label" for=""></label>
+                                <div class="element">
+                                   <p>为了你的权益，您的隐私将被严格保密。</p>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <i class="ico-line-btn">
+                                    <a class="calc-btn">
+                                        <em>开始计算</em>
+                                    </a>
+                                    <span class="circle-animate"></span>
+                                </i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="a"></div>
+    </div>
+    <div class="bj_res_con clear">
+        <div class="bj_res_t clea clear">
+            <span>您家的装修预算</span>
+            <b id="bprice">115186</b>
+            <span class="bj_res_t_y ">元</span>
+        </div>
+        <ul class="bj_res_ul clear">
+            <li class="hotad-cl">
+                <span>材料费：</span>
+                <strong id="materialPay">
+                    <em>88337</em>元
+                </strong>
+            </li>
+            <li class="hotad-rg">
+                <span>人工费：</span>
+                <strong id="artificialPay">
+                    <em>15110</em>元
+                </strong>
+            </li>
+            <li class="hotad-sj">
+                <span>设计费：</span>
+                <strong id="designPay">
+                    <em>9989</em>元
+                </strong>
+            </li>
+            <li class="hotad-zj">
+                <span>质检费：</span>
+                <strong id="qualityPay">
+                    <em>1750</em>元
+                </strong>
+            </li>
+        </ul>
+        <div class="tip">
+            <p>
+                装修预算数据由土巴兔历史服务
+                <i style="color:#ff6d15;">2600万</i>
+                业主装修数据、各大城市装修公司合同数据经过大数据实时分析计算。
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_bottom">
+            <div class="footer_bottom_container">
+                <div class="for">
+                    <div class="fbc_menu">
+                        <ul>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/index.html" target="_blank" rel="nofollow">关于我们</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/contact.html" target="_blank" rel="nofollow">联系我们</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/meiti_bd.php" target="_blank" rel="nofollow">媒体报道</a>
+                            </li>
+                            <li>
+                                <a href="https://www.to8to.com/help" target="_blank" rel="nofollow">帮助中心</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/feedback.php" target="_blank" rel="nofollow">意见反馈</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://hr.to8to.com/xyzp" target="_blank" rel="nofollow">校园招聘</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/join_us.php?act=join_us1" target="_blank" rel="nofollow">高薪聘请</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/noticelist.html" target="_blank" rel="nofollow">公示公告</a>
+                            </li>
+                            <li>
+                                <a hidefocus="" href="https://www.to8to.com/about/shangwu.php" target="_blank" rel="nofollow">商务合作</a>
+                            </li>
+                            <li><a href="https://www.to8to.com/about/complain.html" target="_blank" rel="nofollow">侵权投诉</a></li>
+                        </ul>
+                    </div>
+                    <div class="fbc_copyright">
+                        免责声明：本网站部分内容由用户自行上传，如权利人发现存在误传其作品情形，请及时与本站联系。© 2018 Tubatu.com 土巴兔装修网和设计师社区 保留所有权利
+                    </div>
+                    <p class="footer-company-icp bg">
+                        <span>
+                            土巴兔装修网&nbsp;
+                            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">
+                                增值电信业务许可证：粤B2-20120566号
+                            </a>
+                        </span>
+                        <span>
+                            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" class="footer_y_icp">
+                                粤ICP备08125558号-1
+                            </a>
+                        </span>
+                        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001458" class="footer_new_ga" rel="nofollow">
+                            <i class="index-icon6"></i>
+                            <span>粤公网安备 44030502001458号</span>
+                        </a>
+                        <a href="https://szcert.ebs.org.cn/c0adeb1a-0ad1-476b-b4bd-661a79e90877" target="_blank" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" rel="nofollow">
+                            <i class="index-icon fbc-icon1"></i>
+                        </a>
+                        <a href="http://www.cyberpolice.cn/wfjb/" target="_blank" rel="nofollow">
+                            <i class="index-icon fbc-icon2"></i>
+                        </a>
+                        <a href="http://www.cyberpolice.cn/wfjb/" target="_blank" rel="nofollow">
+                            <i class="index-icon fbc-icon3"></i>
+                        </a>
+                        <a href="https://search.szfw.org/cert/l/CX20140929005207005275" target="_blank" rel="nofollow">
+                            <i class="index-icon fbc-icon4"></i>
+                        </a>
+                        <a href="https://si.trustutn.org/info?sn=345170814029859496005&amp;certType=1" target="_blank" rel="nofollow">
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-qr-code">
+                    <div>
+                        <img class="lazy" src="https://img.to8to.com/to8to_pc/common/modules/footer/img/qrcode_wx.jpg" style="display: inline;" alt="微信公众号">
+                        <p>微信公众号</p>
+                    </div>
+                    <div>
+                        <img class="lazy" src="https://img.to8to.com/to8to_pc/common/modules/footer/img/qrcode_app.jpg?20181226" style="display: inline;" alt="土巴兔APP">
+                        <p>土巴兔APP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

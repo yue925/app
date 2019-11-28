@@ -1,0 +1,163 @@
+.clear:after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear {
+    *zoom: 1;
+}
+.wrap{
+    width: 100%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.footer{
+    display: table;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    z-index: 32;
+    margin-top: 15px;
+}
+.footer .footer_bottom{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    background: #1f1f1f;
+    border-top: 2px solid #009635;
+    float: left;
+}
+.footer .footer_bottom .footer_bottom_container{
+    width: 1220px;
+    margin: 0 auto;
+}
+.footer .footer_bottom .footer_bottom_container .for{
+    float: left;
+}
+.footer .footer_bottom .footer_bottom_container .for .fbc_menu{
+    text-align: left;
+    margin-top: 20px;
+}
+.footer .footer_bottom .footer_bottom_container .for .fbc_menu ul li{
+    width: auto;
+    height: 14px;
+    display: inline-block;
+    font-size: 0;
+    margin-left: 0;
+    margin-right: 13px;
+}
+.footer .footer_bottom .footer_bottom_container .for .fbc_menu ul li a{
+    float: left;
+    width: auto;
+    height: 14px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer .footer_bottom .footer_bottom_container .for .fbc_copyright{
+    color: #83888a;
+    margin-top: 23px;
+    text-align: left;
+    height: 14px;
+    line-height: 14px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp{
+    height: auto;
+    margin-top: 27px;
+    line-height: 20px;
+    color: #666;
+}
+.footer .footer_bottom .footer_bottom_container .for p{
+    text-align: left !important;
+}
+.footer .footer_bottom .footer_bottom_container .for p span{
+    display: inline-block;
+    vertical-align: top;
+    color: #83888a;
+}
+.footer .footer_bottom .footer_bottom_container .for .bg a{
+    color: #666;
+    font-family: Tahoma, Arial, "宋体", sans-serif;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp a{
+    display: inline-block;
+    margin-left: 17px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none !important;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp a.footer_index_tow{
+    margin-left: 5px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .footer_new_ga .index-icon6{
+    width: 20px;
+    height: 20px;
+    background: url("../images/footer_110.png");
+    float: left;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp a i{
+    display: block;
+    font-style: normal;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .footer_new_ga span{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 0 5px;
+    color: #939393 !important;
+    font-size: 12px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp  .index-icon{
+    background-image: url("../images/common_bg.png");
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp  .fbc-icon1{
+    width: 21px;
+    background-position: -385px -497px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp  .fbc-icon2{
+    width: 21px;
+    background-position: -424px -497px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp  .fbc-icon3{
+    width: 21px;
+    background-position: -463px -497px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp  .fbc-icon4{
+    width: 65px;
+    background-position: -499px -497px;
+}
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .fbc-icon1,
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .fbc-icon2,
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .fbc-icon3,
+.footer .footer_bottom .footer_bottom_container .for .footer-company-icp .fbc-icon4{
+    height: 24px;
+    margin-top: -5px;
+}
+.footer .footer_bottom .footer_bottom_container .footer-qr-code div{
+    margin-left: 30px;
+    height: 130px;
+    width: 100px;
+    float: right;
+    margin-top: 20px;
+}
+.footer .footer_bottom .footer_bottom_container .footer-qr-code div img{
+    width: 100px;
+    height: 100px;
+    border: 0;
+    display: inline;
+}
+.footer .footer_bottom .footer_bottom_container .footer-qr-code div p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center !important;
+    margin-top: 8px !important;
+}
